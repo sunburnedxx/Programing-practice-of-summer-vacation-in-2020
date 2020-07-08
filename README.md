@@ -43,3 +43,16 @@
 * 求凸包
 
 8. STL：了解STL，学习vector和list用法，请参考下面的网站。
+## 学习网站：
+1. 牛客网：(https://www.nowcoder.com/)
+2. 力扣：(https://leetcode-cn.com/problemset/all/)
+3. 中国大学MOOC：https://www.icourse163.org/category/computer
+4. 网易云课堂：https://study.163.com/category/480000003131009
+5. 哔哩哔哩：
+https://search.bilibili.com/all?keyword=%E7%AE%97%E6%B3%95&from_source=nav_suggest_new
+6. CSDN: 
+https://so.csdn.net/so/search/s.do?q=%E7%AE%97%E6%B3%95&t=&u=
+7. vector用法：http://c.biancheng.net/view/6749.html
+http://c.biancheng.net/view/6803.html
+http://c.biancheng.net/view/6816.html
+http://c.biancheng.net/view/6826.html
