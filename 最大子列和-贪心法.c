@@ -1,5 +1,5 @@
 #include<stdio.h>
-int maxSubArray(int* nums, int numsSize){
+int maxSubArray(int* nums, int numsSize){         //思路：将数组从左到右迭代1，一个个数字加过去，如果sum小于零，从新开始寻找子序串
     int i,max=0,now=0;
     
     for(i=0;i<numsSize;i++)
