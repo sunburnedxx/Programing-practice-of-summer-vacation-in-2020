@@ -13,7 +13,7 @@ int maxSubArray(int* nums, int numsSize){
     }
     return max;
 }
-int main(void)
+int main(void)             //该算法不可用于数组值均为负数的情况
 {
    int *nums,numsSize,i;
    printf("Enter your arraySize:\n");
