@@ -1,11 +1,11 @@
 #include<stdio.h>
-int maxSubArray(int* nums, int numsSize){
+int maxSubArray(int* nums, int numsSize){       //思路：寻求所有可能的子序列和并求的最大值
     int i,j,max=nums[0],now;      
 
     for(i=0;i<numsSize;i++)     //外层循环将数组每个数循环一遍
     {
         now=0;                  //初始化目前子列和为0
-        for(j=i;j<numsSize;j++)  内层循环从外层循环第一个数开始到数组最后一个数结束
+        for(j=i;j<numsSize;j++)  //内层循环从外层循环第一个数开始到数组最后一个数结束
         {
             now+=nums[j];        //求当前子列和，依次累加后面一个数
             if(now>max)
@@ -16,7 +16,7 @@ int maxSubArray(int* nums, int numsSize){
     return max;
 }
 
-int main(void)
+int main(void)                  
 {
    int *nums,numsSize,i;
    printf("Enter your arraySize:\n");
