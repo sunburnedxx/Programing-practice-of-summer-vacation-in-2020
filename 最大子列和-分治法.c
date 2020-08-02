@@ -11,7 +11,7 @@ int main(void)
    {
       scanf("%d",&nums[i]);
    }
-   maxSubArray(int* nums, int numsSize);
+   printf("%d\n",maxSubArray(int* nums, int numsSize));
    
    return 0; 
 }
